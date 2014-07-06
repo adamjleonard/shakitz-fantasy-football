@@ -41,8 +41,8 @@ class MatchPlayer < ActiveRecord::Base
     total_points += defensive_safety_points
 
     # Add points generally gained by Kickers
-    #total_points += point_conversion_points
-    #total_points += kicker_points_points
+    # total_points += point_conversion_points
+    # total_points += kicker_points_points
 
     total_points += blocked_kicks_points
 
